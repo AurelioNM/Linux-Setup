@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'NVIM setup!'
+
 #update
 sudo apt-get update -y
 sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
