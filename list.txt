@@ -1,6 +1,10 @@
 intellij
 dbeaver
 insomnia
-globalfy-vpn
 Kanzam
 Screenshot?
+globalfy
+  .Repos
+  .Vpn
+  .vpn
+
