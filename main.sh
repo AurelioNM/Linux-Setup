@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #update
-sudo apt update -y
-sudo apt install -y git vim zsh wget unzip jq telnet curl htop terminator tmux docker docker-compose nvm python3 python3-pip ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
-sudo apt autoclean -y
+sudo apt-get update -y
+sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
 sudo apt autoremove -y
+
 
 #nvim
 mkdir git
