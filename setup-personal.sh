@@ -2,7 +2,7 @@
 
 #update
 sudo apt update -y
-sudo apt install -y git vim zsh wget unzip jq telnet curl htop terminator tmux docker docker-compose python3 python3-pip
+sudo apt install -y git vim zsh wget unzip jq telnet curl htop terminator tmux docker docker-compose nvm python3 python3-pip ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
 sudo apt autoclean -y
 sudo apt autoremove -y
 
@@ -27,8 +27,6 @@ rm exa-linux-x86_64-v0.10.1.zip
 mkdir ~/.tmux
 cp .tmux.* ~/.tmux
 cp start-tmux.sh ~/
-
-#change workdir to Home
 cd
 
 #Oh-my-tmux
@@ -43,6 +41,15 @@ echo 'alias t="tmux"' >> ~/.zshrc
 echo 'alias ta="t a -t"' >> ~/.zshrc
 echo 'alias tls="t ls"' >> ~/.zshrc
 echo 'alias tn="t new -t"' >> ~/.zshrc
+
+#nvim
+mkdir git
+cd git
+git clone https://github.com/neovim/neovim.git
+cd neovim
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+cd
 
 echo 'Done!'
 
