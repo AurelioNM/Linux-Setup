@@ -1,10 +1,12 @@
-intellij
-dbeaver
-insomnia
-Kanzam
+  Kanzam
 Screenshot?
+
 globalfy
   .Repos
-  .Vpn
   .vpn
+
+config 
+  .screen-lock
+  .git account
+  .alsamixer
 
