@@ -107,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="exa -hHBmgaFl --git"
-alias ls="exa -hHBmgaFl --git"
 
 # MORORO
 alias n='z ~/Repos/Mororo/Home-Broker && code . && cd ./api && ./start-api.sh'
@@ -120,13 +119,6 @@ alias c='code .'
 alias h='htop'
 alias ds='z /home/mororo/Repos/Mororo/DataStructuresInC'
 alias py='z ~/Repos/Mororo/Python_Expert/Python_Base/ && source .venv/bin/activate && ls && which python3'
-
-# YARN
-alias ys='yarn start:dev'
-alias yi='yarn install --ignore-engines'
-alias ym='yarn migration-dev:run'
-alias yt='yarn test'
-alias ns='npm run start:dev'
 
 # GIT
 alias s='git status'
